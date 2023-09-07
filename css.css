@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    font-family: 'Lato';
+    
+}
+header{
+    display: flex;
+    background-color: pink;
+    height: 75px;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.ig-logo{
+    height: 30px;
+    align-items: center;
+    margin-right: 10px;
+
+
+}
+.tk-logo{
+    height: 30px;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.wp-logo{
+    height: 30px;
+    align-items: center;
+    margin-right: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 55px;
+    
+   
+    
+}
+nav a:hover{
+    color: white;
+}
+nav{
+    justify-content: space-between;
+}
+/********************/
+.container-inte{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.txt{
+    
+    font-size: 25px;    
+    flex-flow: row wrap;
+
+}
+
+.imagenes-larg{
+    
+    size: 14px;
+    height: 20px;
+    margin-bottom: 90px;
+}
+.titulo-int{
+    font-size: 38px;
+    height: 34px;
+    align-items: flex-start;
+}
+.parrafot-int{
+    flex-flow: row wrap;
+    flex-direction: column;
+    width: 320px;
+    font-size: 14px;
+    height: 24px;
+    margin-top: 80px;
+    
+}
+
+/*************************/
+.new-proc{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    height: 38px;
+    margin-right: 45px;
+    
+    
+}
+.T-cajas{
+    margin-top: 35px;
+    padding-top: 25px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around ;
+    align-items: center;
+    flex-flow: row  ;
+    background-color: pink;
+    margin-bottom: 30px;
+    padding-bottom: 45px;
+    gap: 75px;
+    scroll-behavior: smooth;
+
+
+}
+.caja2{
+    padding-left: 800px;
+}
+.ing-cajas{
+    size: 14px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    background-color: pink;
+    
+}
+.p-cajas{
+    margin-top: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 24px;
+   width: 320px;
+   flex-direction: column;
+   background-color: pink;
+}
+.Titulo-cajas{
+    font-size: 25px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;  
+    background-color: pink;
+}
+.p-cajas  p{
+    background-color: pink;
+}
+.menu-carucel{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    list-style: none;
+    border-color: black;
+    
+    
+    
+}
+.carusel-menu-img{
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 15px;
+    width:80px ;
+    height: 80px;
+    margin:0 2px;
+   
+
+}
+@media screen and (max-width: 500px) {
+    .carusel-menu-img {
+      overflow: auto;}
+}
+.todo-carusel {
+    scroll-behavior: smooth;
+
+}
+
+
+/******************************/
+.locate{
+    background-color: azure;
+    margin-top: 220px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    
+}
+.locate h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    height: 44px;
+    width: 300px;
+}
+.locate-2{
+    background-color: azure;
+    margin-top: 220px;
+    display: flex;
+    flex-flow:  row-reverse;
+    align-items: center;
+     
+}
+.locate-2 h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    height: 44px;
+    width: 300px;
+}
+.locate h2 a{
+    display: flex;
+    flex-flow: column;
+}
+.locate a{
+    margin-left: 80px ;
+    align-items: center;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 15px 15px 15px 15px;
+}
+.locate-2 h2 a{
+    display: flex;
+    flex-flow: column;
+}
+.locate-2 a{
+    margin-left: 80px ;
+    align-items: center;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+
+/************************************/
+.nosotros{
+    background-color: pink;
+    margin-top: 100px;
+    padding-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.nosotros-t{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    height: 44px;
+   
+}
+.pyimg{
+    display: flex;
+    flex-flow: row;
+    /*justify-content:space-around;*/
+    align-items: center;
+    gap: 80px;
+}
+.nostros-p{
+    font-size: 14px;
+    height: 20px;
+    flex-flow: column;
+    height: 300px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+
+}
+.ing-nosotros{
+    width: 300px;
+    height: 350px;}
+/*********************/
+.final{
+    margin-top: 100px;
+    background-color: pink;
+    padding-bottom: 50px;
+}
+.final h3{
+    font-size: 45px;
+}
+.h3-final{
+    padding-top: 45px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+
+}
+.redes-paguinas{
+    display: flex;
+    flex-flow: row;
+}
+.contas-final{
+    padding-left: 950px;
+}
+.inicio-final{
+    margin-left: 15px;
+}
+
